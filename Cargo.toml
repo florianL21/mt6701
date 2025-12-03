@@ -10,9 +10,8 @@ description = "MT6701 driver in Rust"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-embedded-hal = "0.2"
+embedded-hal-async = "1.0.0"
 libm = "0.2"
-nb = "1.1"
 
 [dev-dependencies]
 cortex-m-rt = "0.7"
